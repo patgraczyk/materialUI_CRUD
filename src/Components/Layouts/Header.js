@@ -13,13 +13,13 @@ function header(props){
     <div>
        <AppBar position="static">
         <Toolbar>
-          <IconButton  color="inherit" aria-label="Menu">
+          {/* <IconButton  color="inherit" aria-label="Menu">
             <MenuIcon />
-          </IconButton>
+          </IconButton> */}
           <Typography variant="headline" color="inherit" >
-            News
+            Available Classes
           </Typography>
-          <Button color="inherit">Login</Button>
+          {/* <Button color="inherit">Login</Button> */}
         </Toolbar>
       </AppBar>
     </div>
